@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply bg-backgroundColor text-xl text-postDarkBlue;
+}
+
+h1 {
+  @apply flex-wrap text-5xl font-semibold tracking-tight text-postDarkBlue sm:text-6xl;
+}
+
+h2 {
+  @apply flex-wrap text-4xl font-semibold tracking-tight text-postBlue sm:text-5xl;
+}
+
+h3 {
+  @apply font-mono text-base font-thin tracking-tight text-accent sm:text-xl md:text-2xl;
+}
+
+p {
+  @apply text-base  sm:text-lg md:text-xl lg:text-2xl;
+}
