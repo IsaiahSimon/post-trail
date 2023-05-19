@@ -1,5 +1,4 @@
-import { SignInButton, SignedIn, SignedOut, UserButton } from "@clerk/nextjs";
-import { RedirectUrl } from "@clerk/nextjs/dist/server";
+import { SignedIn, SignedOut } from "@clerk/nextjs";
 import { type NextPage } from "next";
 import Link from "next/link";
 import Layout from "~/components/Layout";
@@ -83,7 +82,7 @@ const Home: NextPage = () => {
               </button>
             </form>
             <p className="mb-4">
-              Don't have a tracking number? Try these: <br /> 1234567890,
+              Don&apos;t have a tracking number? Try these: <br /> 1234567890,
               2345678901, 3456789012
             </p>
 

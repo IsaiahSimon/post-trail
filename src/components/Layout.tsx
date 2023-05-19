@@ -1,10 +1,7 @@
-import React, { useState } from "react";
 import type { ReactNode } from "react";
 import Head from "next/head";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
-import Link from "next/link";
-import Spacer from "./Spacer";
 
 interface LayoutProps {
   children: ReactNode;
